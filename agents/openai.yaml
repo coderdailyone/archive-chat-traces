@@ -1,0 +1,4 @@
+interface:
+  display_name: "Archive Chat Traces"
+  short_description: "Automatically preserve local Codex chat transcripts"
+  default_prompt: "Use $archive-chat-traces to install or manage automatic chat transcript archiving."
