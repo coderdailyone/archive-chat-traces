@@ -1,4 +1,12 @@
-# Archive Chat Traces
+<p align="center">
+  <img src="docs/assets/banner.svg" alt="archive-chat-traces — preserve every local Codex chat" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-4ade80" alt="license">
+  <img src="https://img.shields.io/badge/Codex-Stop%20hook-166534" alt="Codex hook">
+  <img src="https://img.shields.io/badge/community-unofficial-a3e635" alt="unofficial">
+</p>
 
 Automatically preserve local Codex chat transcripts in an independent archive.
 

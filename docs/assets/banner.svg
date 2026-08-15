@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="archive-chat-traces — Preserve every local Codex chat — Stop hook + checksummed archive.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#052e16"/>
+      <stop offset="1" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4ade80"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+
+  <g transform="translate(70,60)">
+    <rect width="180" height="180" rx="16" fill="#4ade80" opacity="0.10"/>
+    <rect width="180" height="180" rx="16" fill="none" stroke="#4ade80" stroke-width="2"/>
+    <line x1="90" y1="18" x2="90" y2="44" stroke="url(#accent)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M74 34 L90 50 L106 34" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="38" y="62" width="104" height="24" rx="7" fill="none" stroke="url(#accent)" stroke-width="5"/>
+    <path d="M48 86 V140 a10 10 0 0 0 10 10 h64 a10 10 0 0 0 10 -10 V86" fill="none" stroke="url(#accent)" stroke-width="5"/>
+    <line x1="74" y1="104" x2="106" y2="104" stroke="#a3e635" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace">
+    <text x="310" y="122" font-size="50" font-weight="700" fill="#f8fafc">archive-chat-traces</text>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="310" y="166" font-size="23" fill="#cbd5e1">Preserve every local Codex chat — Stop hook + checksummed archive.</text>
+    <text x="310" y="200" font-size="19" fill="#94a3b8">Codex 聊天记录自动留存：逐轮归档 + SHA-256 校验和，删聊天也删不掉这份副本。</text>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">
+    <rect x="310" y="226" width="210" height="34" rx="17" fill="none" stroke="#166534" stroke-width="1.5"/>
+    <text x="330" y="248" fill="#34d399">✓</text>
+    <text x="350" y="248" fill="#bbf7d0">Stop-hook automatic</text>
+    <rect x="536" y="226" width="194" height="34" rx="17" fill="none" stroke="#166534" stroke-width="1.5"/>
+    <text x="556" y="248" fill="#34d399">✓</text>
+    <text x="576" y="248" fill="#bbf7d0">SHA-256 checksums</text>
+    <rect x="746" y="226" width="161" height="34" rx="17" fill="none" stroke="#166534" stroke-width="1.5"/>
+    <text x="766" y="248" fill="#34d399">✓</text>
+    <text x="786" y="248" fill="#bbf7d0">safe backfill</text>
+  </g>
+</svg>
